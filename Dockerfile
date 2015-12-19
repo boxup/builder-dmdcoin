@@ -15,7 +15,7 @@ VOLUME /data/buildOutput
 WORKDIR /home/development
 RUN git clone https://github.com/dmdcoin/diamond.git
 WORKDIR /home/development/diamond/src
-RUN mkdir /obj
+RUN mkdir obj
 #
 # We have to tweak the buildfile - env vars don't always get applied
 #
