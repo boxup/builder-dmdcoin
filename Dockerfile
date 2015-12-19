@@ -1,7 +1,7 @@
 ###
 # Docker build file for litecoin
 ###
-FROM baseboxorg/coin-builder:latest
+FROM laseek/coin-builder:latest
 MAINTAINER Boxup
 
 # deal with installation warnings
